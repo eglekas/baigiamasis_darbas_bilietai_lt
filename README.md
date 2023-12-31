@@ -8,9 +8,8 @@
 * Test 1(PositiveLogin)
 1. Input valid email
 2. Input valid password
-3. Click on banner
-4. Click on button login
-5. Check if username appeared
+3. Click on button login
+4. Check if username appeared
 
 
 
@@ -18,9 +17,8 @@
 * Test 2(NegativeLogin)
 1. Input valid email
 2. Input false password
-3. Click on banner
-4. Click on button login
-5. Check if message "Neteisingas slaptazodis..." appeared
+3. Click on button login
+4. Check if message "Neteisingas slaptazodis..." appeared
 
 
 
