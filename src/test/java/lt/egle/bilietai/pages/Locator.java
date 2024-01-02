@@ -20,6 +20,7 @@ public class Locator {
             public static By profileLogo = By.xpath("//app-views-heading[contains(text(), 'Mano prisijungimas')]");
             public static By buttonFalsePassword = By.xpath("//input[@name='password']");
             public static By buttonWrongPassword = By.xpath("//div[contains(text(), 'Neteisingas el. paštas arba slaptažodis. Sistema buvo atnaujinta ir dėl to perėjome prie prisijungimo el. paštu.')]");
+            public static By buttonX = By.xpath("//div[@class='popupbanner_close']");
         }
         public static class ChangePasswordPage{
 
