@@ -8,8 +8,9 @@
 * Test 1(PositiveLogin)
 1. Input valid email
 2. Input valid password
-3. Click on button login
-4. Check if username appeared
+3. Click on banner
+4. Click on button login
+5. Check if username appeared
 
 
 
@@ -17,8 +18,9 @@
 * Test 2(NegativeLogin)
 1. Input valid email
 2. Input false password
-3. Click on button login
-4. Check if message "Neteisingas slaptazodis..." appeared
+3. Click on banner
+4. Click on button login
+5. Check if message "Neteisingas slaptazodis..." appeared
 
 
 
@@ -28,8 +30,9 @@
 1. Click on banner
 2. Click on button "Pamirsau slaptazodi"
 3. write valid email
-4. Click on button reset password
-5. Check for message updated password
+4. Click on banner
+5. Click on button reset password
+6. Check for message updated password
 
 
 

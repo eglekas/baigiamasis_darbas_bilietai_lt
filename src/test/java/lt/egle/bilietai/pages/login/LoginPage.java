@@ -42,4 +42,8 @@ public class LoginPage {
 
     public static String readMessageWrongPassword() {
         return Common.getText(Locator.Bilietai.LoginPage.buttonWrongPassword);}
+
+    public static void clickOnBanner() {
+        Common.clickOnElement(Locator.Bilietai.LoginPage.buttonX);
+    }
 }
