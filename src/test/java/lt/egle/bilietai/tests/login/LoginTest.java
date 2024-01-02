@@ -24,6 +24,7 @@ public class LoginTest extends TestBase {
         String actualResult;
         LoginPage.writeValidEmail(email);
         LoginPage.writeValidPassword(password);
+        LoginPage.clickOnBanner();
         LoginPage.clickOnLoginButton();
 
         actualResult = LoginPage.readProfileName();
@@ -39,6 +40,7 @@ public class LoginTest extends TestBase {
         String actualResult;
         LoginPage.writeValidEmail(email);
         LoginPage.writeFalsePassword(password);
+        LoginPage.clickOnBanner();
         LoginPage.clickOnLoginButton();
 
         actualResult = LoginPage.readMessageWrongPassword();
