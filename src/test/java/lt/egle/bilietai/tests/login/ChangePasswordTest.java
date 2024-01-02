@@ -24,6 +24,7 @@ public class ChangePasswordTest extends TestBase {
         String actualResult;
         ChangePasswordPage.clickOnButtonPamirsoteSlaptazodi();
         ChangePasswordPage.writeValidEmail(email);
+        ChangePasswordPage.clickOnBanner();
         ChangePasswordPage.clickOnButtonResetPassword();
 
 
